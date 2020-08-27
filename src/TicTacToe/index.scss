@@ -1,0 +1,39 @@
+.wrapper { 
+    .reset {
+        text-align: center;
+        margin-top: 50px;
+        .resetButton {
+            background-color: green;
+            border: none;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 20px;
+            margin-left: 30px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            margin: auto;
+        }
+    }
+    .childWrapper {
+        margin-top: 25px;    
+        width: 100%;
+        height: 500px;
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        grid-template-columns: 100px 100px 100px;
+        grid-template-rows: 100px 100px 100px;
+        .squares {
+            border: 1px solid black;
+            text-align: center;
+        }
+        .clickImagesX {
+            width: 100%;
+        }
+        .clickImages0 {
+            width: 100%;
+            margin-top: 15px;
+        }
+    }
+}
